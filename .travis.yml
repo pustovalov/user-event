@@ -11,10 +11,6 @@ install: npm install
 script:
   - npm run validate
   - npx codecov@3
-branches:
-  only:
-    - master
-    - beta
 
 jobs:
   include:
